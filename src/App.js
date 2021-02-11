@@ -7,12 +7,16 @@ import Login from './screens/login/login'
 import Navbar from './components/navbar/navbar'
 import Error404 from './screens/error/error404'
 import NewPost from './screens/NewPost/NewPost'
+import Home from './screens/Home/Home'
 
 function App() {
   return (
     <Router>
       <Navbar/>
       <Switch>
+      <Route path = "/" exact>
+            <Home/>
+        </Route>
         <Route path = "/signup" exact>
             <Signup/>
         </Route>
