@@ -9,7 +9,7 @@ export default function Navbar(){
     return(
         <div className ="navbar__container">
             <div className="title">
-                <h1>Groupomania</h1>
+                <h1><Link to="/">Groupomania</Link></h1>
             </div>
             <nav>
                 <ul>

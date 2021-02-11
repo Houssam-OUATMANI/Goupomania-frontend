@@ -8,13 +8,18 @@
 .title{
     padding-left: 2rem;
     color: chartreuse;
+    h1 {
+        a {
+            font-size: 2rem;
+        }
+    }
 }
 
 nav {
     margin-right:  2rem;
 
     ul {
-        width: 15rem;
+        width: 30rem;
         display: flex;
         justify-content: space-between;
     }
