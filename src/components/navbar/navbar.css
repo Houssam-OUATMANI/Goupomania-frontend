@@ -1,0 +1,28 @@
+.navbar__container {
+  background-color: #1b1b1b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  padding-left: 2rem;
+  color: chartreuse;
+}
+
+nav {
+  margin-right: 2rem;
+}
+nav ul {
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: chartreuse;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=navbar.css.map */

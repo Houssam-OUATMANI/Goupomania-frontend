@@ -1,0 +1,27 @@
+.error-container {
+  margin-top: 5rem;
+}
+.error-container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.error-container h2 {
+  font-size: 2.5rem;
+}
+.error-container img {
+  width: 35rem;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.error-container a {
+  font-size: 2rem;
+  color: chartreuse;
+  border: 3px solid chartreuse;
+  padding: 0.5rem 3rem;
+  background-color: black;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=404.css.map */
